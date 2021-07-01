@@ -1,10 +1,8 @@
-@font-face {
-    font-family: "formula1";
-    src: url("font/Formula1-Regular.ttf")  format("treutype");
-}
-.p1{
-    font-size: 21px;
-}
 card{
     box-shadow: 20px 20px 20px rgb(0, 0, 0);
+}
+@media screen { max-width: 500px){
+
+}
+    
 }

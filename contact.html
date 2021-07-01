@@ -62,14 +62,26 @@
             </ul>
           </div>
           <h1>Contact</h1>
-            <div class="col-sm-6 mx-auto">
-              <div class="card shadow-lg mb-5 bg-body rounded ">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
+         <form>
+           <div class="container items-center">
+            <div>
+             <label for="nomInputname" class="form-label text-danger">Nom :</label>
+             <input type ="nom" class="form-control shadow-lg mb-5 bg-body rounded" id="nomInputname" arial-describedy="emailHelp">
+           </div>
+           <div>
+            <label for="prenomInputlastname" class="form-label text-danger">Prénom :</label>
+            <input type ="prenom" class="form-control shadow-lg mb-5 bg-body rounded" id="prenomInputlastname" arial-describedy="emailHelp">
           </div>
+          <div>
+            <label for="exampleinputEmail1" class="form-label text-danger">Adresse mail :</label>
+            <input type ="email" class="form-control shadow-lg mb-5 bg-body rounded" id="exampleInputEmail" arial-describedy="emailHelp">
+          </div>
+          <div>
+            <label for="message" class="form-label text-danger">Votre message :</label>
+            <textarea class="form-control shadow-lg mb-5 bg-body rounded" id="message" rows="3"></textarea>
+          </div>
+           </div>
+           <button type="button" class="btn btn-danger btn-lg m-5">Envoyez</button>
+          </form> 
 </body>
 </html>
