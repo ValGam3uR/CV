@@ -1,3 +1,9 @@
 card{
     box-shadow: 20px 20px 20px rgb(0, 0, 0);
 }
+@media screen and (max-width:850px) 
+    {
+       div{
+           justify-content: center;
+       } 
+}
